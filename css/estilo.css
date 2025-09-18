@@ -1,3 +1,38 @@
-*{
-    box-sizing: ;border-box;
+body {
+    background-color: white;
+    font-style: normal;
+    color: black;
+}
+article {
+    padding: 20px;
+    border: 1px solid black;
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+}
+article h2 {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    list-style: 2.5;
+    margin: -10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+article > div {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+article > ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+article > ul li {
+    text-align: center;
+}
+article > footer {
+    text-align: center;
 }
